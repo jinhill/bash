@@ -1,6 +1,6 @@
 #!/bin/sh
-SIGN_KEY="SEC7b7b301ffd31fa80c6f0f16a4da98b60338c916ce79d054d4dd35b4bc3fa3a35";
-WEB_HOOK="https://oapi.dingtalk.com/robot/send?access_token=9b781aec3378947947e0ed1cbd8ad593ee293475b4164c8d2f6067145e6da37f";
+SIGN_KEY="YOUR-KEY";
+WEB_HOOK="https://oapi.dingtalk.com/robot/send?access_token=YOUR-TOKEN";
 #$1=url
 URLEncode() {
   local string="${1}"
